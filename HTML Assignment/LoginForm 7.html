@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <title>Creation of form</title>
+        
+    </head>
+    <body>
+        <div style="height: auto; width: 40%;border: 2px solid black;padding: 2%;">
+            <div style="text-align: center; width: 100%; border: 1px solid black;margin-bottom: 2%;">
+                <h1>Login form</h1>
+            </div>
+                <form>
+                        <label>Name</label> <input type="text" placeholder="FirstName" >  <input type="text" placeholder="LastName"><br> <br>   
+
+                        <label>Email</label>  <input type="email" placeholder="Email" required="required"><br><br>
+
+                        <label>PhoneNumber</label>  <input type="number" placeholder="10 digit number" maxlength="10" min="10" required><br><br>
+
+                        <label>Password</label>  <input type="password" placeholder="Password" maxlength="8"><br><br>
+
+                        <label>Gender</label><br>
+                            <input type="radio" name="Gender" value="male"> Male<br>
+                            <input type="radio" name="Gender" value="Female"> Female<br>
+                            <input type="radio" name="Gender" value="not disclose"> not wish to disclose<br>     <br>
+
+                        <label>Address</label><br>
+                            <textarea name="address" cols="30" rows="5"></textarea><br><br>
+
+                        <label>Date of Birth</label><br>
+                            <input type="date" name="dateofbirth"><br><br>
+
+                        <label>Time</label><br>
+                            <input type="time" name="time"><br><br>
+
+                        <label>Languages</label><br>
+                            <input type="checkbox" name="lang" value="Tamil"> Tamil<br>
+                            <input type="checkbox" name="lang" value="English"> English<br>
+                            <input type="checkbox" name="lang" value="French"> French<br><br>
+
+                        <label>Select your field by interest</label><br>
+                            <select>
+                                <option>Cricket</option>
+                                <option>Batmiton</option>
+                                <option>music</option>
+                            </select><br><br>
+
+                        <label>Upload your Photo</label><br>
+                            <input type="file" value="jpg" name="photo"><br><br>
+
+                        <input type="submit" name="submit"> <input type="reset" name="reset">
+                        
+                        
+                        
+                </form>
+
+        </div>
+       
+    </body>
+</html>
